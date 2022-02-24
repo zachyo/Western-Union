@@ -8,13 +8,36 @@
     <title>Western Union</title>
   </head>
   <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <nav>
+        <ul class="topnav" id="dropdownClick">
+          <li>
+            <a href="#" id="navLogo"><img src="./img/logo.wu.big.svg" /></a>
+          </li>
+          <li><a href="#home">How to send money</a></li>
+          <li><a href="#">Send money</a></li>
+          <li><a href="#">Track transfer</a></li>
+          <li><a href="#">Find Locations</a></li>
+          <li><a href="#">My WU</a></li>
+          <li class="dropdownIcon">
+            <a href="#" onclick="dropdownMenu();" class="navDropdown"
+              >&#9776;</a
+            >
+          </li>
+          <li><a href="#" class="navBtn">Login</a></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <!-- Section One -->
     <div class="section1">
       <div class="header">
         <h1 class="primary-heading">Send money online from Nigeria</h1>
         <a href="#" class="btn btn-black header-btn">Send now</a>
       </div>
-      <!-- <img src="img/ng-home.png" alt="Nigeria" /> -->
+      <img src="img/ng-home.png" alt="Nigeria" class="homeImg" />
     </div>
 
     <!-- Middle Bar -->
@@ -83,9 +106,33 @@
               <!-- <li><span class="round_span">2</span>Verify your profile online</li>
             <li><span class="round_span">3</span>Send money 24/7</li> -->
             </div>
-            <a href="#" class="btn-black"></a>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Map Section -->
+    <div class="mapSection">
+      <h2 class="section-heading">Millions of international money transfers</h2>
+      <div class="mapRow">
+        <div class="row">
+          <div class="col-1-of-3">
+            <h3 class="secondary-heading map-heading">Worldwide</h3>
+            <p>We're in 200+ countries and territories</p>
+          </div>
+          <div class="col-1-of-3">
+            <h3 class="secondary-heading map-heading">Reliable</h3>
+            <p>We've been moving money for over 145 years</p>
+          </div>
+          <div class="col-1-of-3">
+            <h3 class="secondary-heading map-heading">$80B annually</h3>
+            <p>We make an average 31 transactions per second</p>
+          </div>
+        </div>
+      </div>
+      <div class="send">
+        <h2 class="section-heading">Ready to send?</h2>
+        <a href="#" class="btn btn-yellow send-btn">Get started</a>
       </div>
     </div>
   </body>
