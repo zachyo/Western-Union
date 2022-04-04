@@ -16,6 +16,10 @@ body {
   display: table;
   clear: both;
 }
+p {
+  font-size: 25px;
+  margin: 30px 0;
+}
 [class^="col-"]:not(:last-child) {
   margin-right: 40px;
 }
@@ -47,7 +51,7 @@ body {
   margin-top: 60px;
 }
 .btn-yellow {
-  background-color: #ffd529;
+  background-color: #ffdc00;
   color: black;
 }
 .btn-black {
@@ -61,7 +65,7 @@ nav {
   background-color: rgb(39, 39, 39);
   margin: 0;
   padding: 0 288px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 nav ul {
@@ -87,7 +91,7 @@ ul.topnav li a img {
 ul.topnav li a {
   display: block;
   font-size: 18px;
-  padding: 30px 18px;
+  padding: 30px 15px;
   text-decoration: none;
   text-align: center;
   color: #fff;
@@ -171,14 +175,13 @@ ul.topnav li a:hover {
 }
 
 .col-1-of-4 p {
-  font-size: 25px;
   margin: 0 0 15px 0;
   padding: 0;
   text-align: center;
 }
-.section2 a .btn {
+/* .section2 a .btn {
   width: 100%;
-}
+} */
 
 /* Section 3 */
 .section3 {
@@ -215,6 +218,15 @@ ul.topnav li a:hover {
   padding-top: 11px;
   margin-right: 20px;
 }
+.s3-flex {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+.s3-flex > span {
+  padding-top: 10px;
+  font-size: 25px;
+}
 .special_list {
   list-style: none;
 
@@ -228,7 +240,9 @@ ul.topnav li a:hover {
 
 /* Map section */
 .mapSection {
-  height: 600px;
+  height: 760px;
+  padding: 56px 0;
+  /* margin-bottom: 60px; */
 }
 .mapRow {
   margin: 0 380px;
@@ -236,7 +250,6 @@ ul.topnav li a:hover {
   border-bottom: 1px solid rgb(206, 206, 206);
 }
 .col-1-of-3 p {
-  font-size: 25px;
   margin: 0 0 15px 0;
   padding: 0;
   text-align: center;
@@ -246,7 +259,6 @@ ul.topnav li a:hover {
   font-weight: 100;
   margin-bottom: 15px;
 }
-
 .send {
   margin-top: 90px;
   text-align: center;
@@ -255,4 +267,116 @@ ul.topnav li a:hover {
   /* text-align: center; */
   width: 16% !important;
   margin-top: 10px !important;
+}
+
+/* FAQ's */
+.faqs {
+  text-align: center;
+  background-color: #e6e6e6;
+  padding: 60px 0 110px 0;
+}
+.faqs p a {
+  text-decoration: none;
+  color: #337ab7;
+}
+.faqs p a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+section.faqs a.btn {
+  width: 16%;
+  color: black;
+  margin-top: 30px;
+}
+
+/* Footer Bar */
+
+.footer-story {
+  font-size: 18px;
+  margin: 165px 505px;
+}
+.fillUp {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+.col-1-of-5 {
+  padding-right: 60px;
+}
+.col-1-of-5:last-child {
+  padding-right: 0;
+}
+.footer-links {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
+.footer-links > li {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: rgb(109, 108, 108);
+}
+.footerbar {
+  background-color: rgb(104, 103, 103);
+  display: flex;
+  flex-direction: row;
+  justify-items:stretch;
+    color: #fff;
+  padding: 0 390px;
+
+  height: 95px;
+}
+.footerbar > p {
+  width: 36%;
+  font-size: 18px;
+  padding-right: 80px;
+}
+.footer-span {
+  font-size: 15px;
+  padding: 43px 6px;
+}
+.footer-span  > span {
+  padding: 0 40px;
+  text-decoration: none;
+  color: white;
+}
+.footer-span a {
+  text-decoration: none;
+  color: #fff;
+}
+.below-bar {
+  margin: 30px 0;
+}
+.footer-navlist {
+  /* display:inline-block; */
+  list-style: none;
+  padding: 0 390px;
+}
+.footer-navlist li {
+  font-size: 14px;
+  padding: 0 9px;
+  float: left;
+  border-right: 1px black solid;
+  margin-bottom: 10px;
+
+}
+.footer-navlist li:last-child {
+  border-right: none;
+}
+.footer-navlist a {
+  text-decoration: none;
+  color: rgb(124, 123, 123);
+}
+.last {
+  display: flex;
+  margin: 0 394px;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.last p {
+  font-size: 14px;
+  
 }
