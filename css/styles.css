@@ -1,6 +1,7 @@
 html,
 body {
   margin: 0;
+  font-family: 'Open Sans';
 }
 .row {
   max-width: 1450px;
@@ -295,10 +296,41 @@ section.faqs a.btn {
   font-size: 18px;
   margin: 165px 505px;
 }
+.selectCountry {
+  /* padding: 100px; */
+  /* display: inline-block;  */
+  padding-top: 20px;
+  position: relative;
+}
+.comodo {
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  /* translate: (-50%, -50%); */
+  transform: scale(1.3);
+}
+.countryNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 394px;
+}
+.optionSelect {
+  width: 370px;
+  padding: 10px 0;
+  margin-top: 5px;
+  border: none;
+  border-bottom: 1px lightgrey solid;
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
 .fillUp {
   display: flex;
+  flex-direction: row; 
   justify-content: flex-end;
   margin-bottom: 40px;
+
 }
 .col-1-of-5 {
   padding-right: 60px;
