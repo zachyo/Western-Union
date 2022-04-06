@@ -324,6 +324,7 @@ section.faqs a.btn {
   border-bottom: 1px lightgrey solid;
   font-family: 'Open Sans';
   font-size: 16px;
+  background-color: none;
 }
 .fillUp {
   display: flex;
