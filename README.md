@@ -5,3 +5,6 @@
 A typical practice copy of western union official website
 Not fully responsive. 
 Built to a browser zoom of 80%
+
+Here is a link to view it
+https://zachyo.github.io/Western-Union/
